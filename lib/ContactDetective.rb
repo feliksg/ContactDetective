@@ -67,7 +67,7 @@ module ContactDetective
       pattone = text.scan(/[0-9]{3}\-[0-9]{3}\-[0-9]{4}/)
       patttwo = text.scan(/\([0-9]{3}\)\-[0-9]{3}\-[0-9]{3}/)
       pattthree = text.scan(/[0-9]{3} [0-9]{3} [0-9]{4}/)
-      return pattone + pattwo
+      return pattone + patttwo + pattthree
     end
 
     #gets numbers by area code
